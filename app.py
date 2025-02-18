@@ -8,6 +8,9 @@ print('4. Sair\n')
 opcao_escolhida = int(input('Escolha uma opção: \n'))
 print(f'Você escolheu a opção {opcao_escolhida}\n')
 
+def finalizar_app():
+    print('Finalizar o app')
+
 if opcao_escolhida == 1:
     print('Cadastrar lanchonete')
 elif opcao_escolhida == 2:
@@ -15,4 +18,4 @@ elif opcao_escolhida == 2:
 elif opcao_escolhida == 3:
     print('Ativar restaurante')
 else:
-    print('Encerrando o programa')
+    finalizar_app()
